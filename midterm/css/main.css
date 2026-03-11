@@ -1,0 +1,142 @@
+/* Page background */
+body{
+background:#aad4cf;
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+}
+
+/* Main container */
+.container{
+width:820px;
+margin:auto;
+background:#cfe3e1;
+}
+
+/* HEADER */
+header{
+position:relative;
+}
+
+header img{
+width:100%;
+display:block;
+}
+
+header h1{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:white;
+font-size:40px;
+}
+
+/* NAVIGATION */
+
+.menu{
+list-style:none;
+display:flex;
+justify-content:center;
+margin:0;
+padding:15px 0;
+background:#d6e7e5;
+}
+
+.menu li{
+padding:0 40px;
+border-right:1px solid gray;
+font-weight:bold;
+}
+
+.menu li:last-child{
+border-right:none;
+}
+
+.menu a{
+text-decoration:none;
+color:black;
+}
+
+/* ARTICLE */
+
+.article{
+padding:20px;
+}
+
+.article img{
+float:left;
+width:170px;
+margin-right:15px;
+margin-bottom:10px;
+}
+
+/* FACTS */
+
+.facts{
+padding:0 20px 20px 20px;
+}
+
+.facts ul{
+padding-left:20px;
+}
+
+/* CONTACT TITLE */
+
+.contact-title{
+padding-left:20px;
+}
+
+/* CONTACT BOX */
+
+.contact-box{
+border:1px solid gray;
+margin:20px;
+padding:20px;
+background:#cfe3e1;
+}
+
+/* FORM */
+
+label{
+display:block;
+margin-top:10px;
+}
+
+input,
+textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+box-sizing:border-box;
+}
+
+textarea{
+height:100px;
+}
+
+/* RADIO BUTTONS */
+
+.radio-group{
+display:flex;
+gap:20px;
+margin:10px 0;
+}
+
+.radio-group label{
+display:inline-block;
+margin-top:0;
+}
+
+/* BUTTON */
+
+button{
+padding:5px 15px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:right;
+font-size:12px;
+padding:10px 20px;
+}
